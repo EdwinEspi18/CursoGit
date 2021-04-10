@@ -3,31 +3,33 @@ Subir archivo a git hub
 - git init
 - git add "Nombre del archivo"  o git add . (añade todo)
 - git status -s (para verificar si se agrego el archivo)
-- git commint -m"Nombre con el que se sube respaldo"
+- git commint -m "Nombre con el que se sube respaldo"
 Entrar a git hub -> nuevo repositorio
 - git remote add origin "liga"
 - git push origin master
 Actualizar de local a git hub
 - git add .
-- git commit m-"comentartio"
+- git commit -m "comentartio"
 - git push
 Actualizar de git a local
 - editar en github
 - iniciar bash en carpeta
-- git pull
+- git pull (direccion del repositorio)
 Tags Especificar versiones
--  git tag "Nombre de version" -m"comentario"
+- git tag "Nombre de version" -m "comentario"
 - git push --tags
 Verificar los commit
 - git log --oneline
 Restaurar borra lo nuevo "forma local"
 -git reset --hard (comit de referncia "No debe llevar ni parentesis ni corchetes")
+
 Modificar comentario de un commit
 - git commit --amend 
 - :i
 - Editar nombre
 - ESC
 - :wq
+
 --RAMAS--
 crear rama
 - git branch (nombre de la rama"No debe llevar ni parentesis ni corchetes")
