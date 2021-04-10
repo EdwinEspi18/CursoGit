@@ -21,7 +21,7 @@ Tags Especificar versiones
 Verificar los commit
 - git log --oneline
 Restaurar borra lo nuevo "forma local"
--git reset --hard (comit de referncia "No debe llevar ni parentesis ni corchetes")
+-git reset --hard ("aqui poner el codigo del commit al que queremos estar)
 
 Modificar comentario de un commit
 - git commit --amend 
