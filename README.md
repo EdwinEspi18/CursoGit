@@ -7,6 +7,7 @@ Subir archivo a git hub
 - git commit -am "Nombre con el que se sube respaldo" (hacemos el commit y el add en un solo comando)
 
   Subiendo a git hub -> repositorio
+- git remote add origin (link o direccion del repositorio donde desea subir el proyecto)
 - git remote -v (enter)
 - git push origin master
 
