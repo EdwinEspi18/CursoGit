@@ -2,4 +2,7 @@
 
 body {
   background-image: radial-gradient(circle, #817b7b, #424042);
+  height: 100vh;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
 }
