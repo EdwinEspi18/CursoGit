@@ -1,5 +1,5 @@
 --BASICO--
-Subir archivo a git hub
+# Subir archivo a git hub
 
 - git init
 - git add "Nombre del archivo" o git add . (añade todo)
@@ -7,41 +7,41 @@ Subir archivo a git hub
 - git commit -m "Nombre con el que se sube respaldo"
 - git commit -am "Nombre con el que se sube respaldo" (hacemos el commit y el add en un solo comando)
 
-  Subiendo a git hub -> repositorio
+ # Subiendo a git hub -> repositorio
 
 - git remote add origin (link o direccion del repositorio donde desea subir el proyecto)
 - git remote -v (enter)
 - git push origin master
 
-  Actualizar de local a git hub
+ # Actualizar de local a git hub
 
 - git add .
 - git commit -m "comentario"
 - git push
 
-  Actualizar de git a local
+ # Actualizar de git a local
 
 - editar en github
 - iniciar bash en carpeta
 - git pull (link o direccion del repositorio)
 
-  Tags Especificar versiones
+#  Tags Especificar versiones
 
 - git tag "Nombre de version" -m "comentario"
 - git push --tags
 
-  Clonar un repositorio
+ # Clonar un repositorio
 
 - iniciar bash en carpeta
 - git clone (url, link o direccion del repositorio a clonar)
 
-  Verificar los commit
+#  Verificar los commit
 
 - git log --oneline
   Restaurar borra lo nuevo "forma local"
   -git reset --hard ("aqui poner el codigo del commit al que queremos estar)
 
-Modificar comentario de un commit
+# Modificar comentario de un commit
 
 - git commit --amend
 - en VScode no es necesario esto
@@ -50,7 +50,7 @@ Modificar comentario de un commit
 - ESC
 - :wq
 
---RAMAS--
+# RAMAS
 
 crear rama
 
